@@ -68,7 +68,7 @@ li {
 
 .hero-section {
     color: white;
-    background: url(/assets/images/hero-img.svg);
+    background: url(/assets/images/hero-img.png);
     fill: Solid rgba(0, 0, 0, 10);
     background-repeat: no-repeat;
     background-position: center;
@@ -113,7 +113,7 @@ li {
 /* About */
 
 #about-section {
-    background: url(/assets/images/about-section-image.svg);
+    background: url(/assets/images/about-section-image.png);
     background-repeat: no-repeat;
     background-position: center;
     text-align: left;
