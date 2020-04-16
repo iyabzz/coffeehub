@@ -68,7 +68,7 @@ li {
 
 .hero-section {
     color: white;
-    background: url(/assets/images/hero-img.png);
+    background: url(https://res.cloudinary.com/iyabz/image/upload/v1587052575/hero-img_x9zvyg.png);
     fill: Solid rgba(0, 0, 0, 10);
     background-repeat: no-repeat;
     background-position: center;
