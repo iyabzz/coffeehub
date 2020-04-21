@@ -213,7 +213,6 @@ li .active {
     color: #000000;
 }
 
-
 .coffee-card {
     background: #ffffff;
     padding: 3.17vh 1.94vw;
@@ -229,7 +228,6 @@ li .active {
 .card-title {
     font-family: 'Montserrat-Regular';
     font-style: normal;
-    /* font-size: 1.69em; */
     /* font-size: 1.435em; */
     font-size: 1.3em;
     margin-bottom: 2.42vh;
