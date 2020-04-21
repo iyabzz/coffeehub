@@ -203,7 +203,7 @@ li {
 
 }
 
-.list .menulinks {
+.list .tablinks {
     padding-right: 4.03vw;
     padding-left: 4.03vw;
 }
@@ -230,7 +230,8 @@ li .active {
     font-family: 'Montserrat-Regular';
     font-style: normal;
     /* font-size: 1.69em; */
-    font-size: 1.435em;
+    /* font-size: 1.435em; */
+    font-size: 1.3em;
     margin-bottom: 2.42vh;
 }
 

@@ -101,46 +101,26 @@
     </div>
 
     <!-- MENU SECTION -->
-
+    
     <div id="menu" class="coffeehub-menu">
       <div class="row">
         <div class="container">
-          <div class="little-title text-center">our menu</div>
-          <div class="main-title text-center">Explore Our Amazing Menu</div>
-
-          <div class="tab list col-md-12 col-md-6">
-            <button
-              class="menulinks col-md-3 col-md-3"
-              onclick="openMenu(event, 'Coffee')"
-              id="defaultOpen"
-            >
-              Coffee
-            </button>
-            <button
-            class="menulinks col-md-3 col-md-3"
-            onclick="openMenu(event, 'Coffee')"
-           
-          >
-            Pastries
-          </button>
-            <button
-              class="menulinks col-md-3 col-md-3"
-              onclick="openMenu(event, 'Pastries')"
-            >
-              Sandwiches
-            </button>
-            <button
-              class="menulinks col-md-3 col-md-3"
-              onclick="openMenu(event, 'Sandwiches')"
-            >
-           Cookies
-            </button>
+          <div class="little-title text-center">
+            our menu
           </div>
-
-          <!-- Cookies -->
+          <div class="main-title text-center">
+            Explore Our Amazing Menu
+          </div>
+          <div class="tab list col-md-12 col-md-6">
+            <button class="tablinks" onclick="openCity(event, 'Coffee')" id="defaultOpen">Coffee</button>
+            <button class="tablinks" onclick="openCity(event, 'Pastries')">Pastries</button>
+            <button class="tablinks" onclick="openCity(event, 'Sandwiches')">Sandwiches</button>
+            <button class="tablinks" onclick="openCity(event, 'Cookies')">Cookies</button>
+          </div>
           <div id="Coffee" class="coffeecards tabcontent">
             <div class="container">
               <div class="row">
+
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                   <div class="coffee-card">
                     <div class="card-title text-center">
@@ -266,144 +246,16 @@
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
+          </div>
+          
 
-            <div id="Coffee" class="coffeecards tabcontent">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                    <div class="coffee-card">
-                      <div class="card-title text-center">
-                        Cappuccino
-                      </div>
-                      <div class="card-img text-center">
-                        <img
-                          src="assets/images/cappuccino-coffee-img.png"
-                          alt="Cappuccino"
-                          class="img-fluid"
-                        />
-                      </div>
-                      <div class="card-description">
-                        Lorem ipsum dolor sit amet, consestetur
-                      </div>
-                      <div class="card-price">
-                        N200
-                      </div>
-                    </div>
-                  </div>
-  
-                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                    <div class="coffee-card">
-                      <div class="card-title text-center">
-                        Espresso
-                      </div>
-                      <div class="card-img text-center">
-                        <img
-                          src="assets/images/espresso-coffee-img.png"
-                          alt="Cappuccino"
-                          class="img-fluid"
-                        />
-                      </div>
-                      <div class="card-description">
-                        Lorem ipsum dolor sit amet, consestetur
-                      </div>
-                      <div class="card-price">
-                        N200
-                      </div>
-                    </div>
-                  </div>
-  
-                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                    <div class="coffee-card">
-                      <div class="card-title text-center">
-                        Latte
-                      </div>
-                      <div class="card-img text-center">
-                        <img
-                          src="assets/images/latte-coffee-img.png"
-                          alt="Cappuccino"
-                          class="img-fluid"
-                        />
-                      </div>
-                      <div class="card-description">
-                        Lorem ipsum dolor sit amet, consestetur
-                      </div>
-                      <div class="card-price">
-                        N200
-                      </div>
-                    </div>
-                  </div>
-  
-                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                    <div class="coffee-card">
-                      <div class="card-title text-center">
-                        Milk
-                      </div>
-                      <div class="card-img text-center">
-                        <img
-                          src="assets/images/milk-coffee-img.png"
-                          alt="Cappuccino"
-                          class="img-fluid"
-                        />
-                      </div>
-                      <div class="card-description">
-                        Lorem ipsum dolor sit amet, consestetur
-                      </div>
-                      <div class="card-price">
-                        N200
-                      </div>
-                    </div>
-                  </div>
-  
-                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                    <div class="coffee-card">
-                      <div class="card-title text-center">
-                        Brown
-                      </div>
-                      <div class="card-img text-center">
-                        <img
-                          src="assets/images/brown-coffee-img.png"
-                          alt="Cappuccino"
-                          class="img-fluid"
-                        />
-                      </div>
-                      <div class="card-description">
-                        Lorem ipsum dolor sit amet, consestetur
-                      </div>
-                      <div class="card-price">
-                        N200
-                      </div>
-                    </div>
-                  </div>
-  
-                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                    <div class="coffee-card">
-                      <div class="card-title text-center">
-                        Black
-                      </div>
-                      <div class="card-img text-center">
-                        <img
-                          src="assets/images/black-coffee-img.png"
-                          alt="Cappuccino"
-                          class="img-fluid"
-                        />
-                      </div>
-                      <div class="card-description">
-                        Lorem ipsum dolor sit amet, consestetur
-                      </div>
-                      <div class="card-price">
-                        N200
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            <!-- Pastries -->
-
-            <div id="Pastries" class="coffeecards tabcontent">
+          <div id="Pastries" class="coffeecards tabcontent">
+            <div class="container">
               <div class="row">
+
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                   <div class="coffee-card">
                     <div class="card-title text-center">
@@ -475,7 +327,7 @@
                     <div class="card-img text-center">
                       <img
                         src="assets/images/waffels.png"
-                        alt="Waffels"
+                        alt="Waffles"
                         class="img-fluid"
                       />
                     </div>
@@ -538,7 +390,7 @@
                     <div class="card-img text-center">
                       <img
                         src="assets/images/banana-nut-muffins.png"
-                        alt="Croissant"
+                        alt="Banana nut muffins"
                         class="img-fluid"
                       />
                     </div>
@@ -548,151 +400,158 @@
                     <div class="card-price">
                       N200
                     </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+           <!-- Sandwiches -->
+
+           <div id="Sandwiches" class="coffeecards tabcontent">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                <div class="coffee-card">
+                  <div class="card-title text-center">
+                    Grilled sandwich
+                  </div>
+                  <div class="card-img text-center">
+                    <img
+                      src="assets/images/grilled-sandwich.png"
+                      alt="Grilled sandwich"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="card-description">
+                    Lorem ipsum dolor sit amet, consestetur
+                  </div>
+                  <div class="card-price">
+                    N200
                   </div>
                 </div>
               </div>
-            </div>
 
-            <!-- Sandwiches -->
-
-            <div id="Sandwiches" class="coffeecards tabcontent">
-              <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                  <div class="coffee-card">
-                    <div class="card-title text-center">
-                      Grilled sandwich
-                    </div>
-                    <div class="card-img text-center">
-                      <img
-                        src="assets/images/grilled-sandwich.png"
-                        alt="Grilled sandwich"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="card-description">
-                      Lorem ipsum dolor sit amet, consestetur
-                    </div>
-                    <div class="card-price">
-                      N200
-                    </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                <div class="coffee-card">
+                  <div class="card-title text-center">
+                    Strawberry jam with toast
                   </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                  <div class="coffee-card">
-                    <div class="card-title text-center">
-                      Strawberry jam with toast
-                    </div>
-                    <div class="card-img text-center">
-                      <img
-                        src="assets/images/strawberry-jam-with-toast.png"
-                        alt="Strawberry jam with toast"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="card-description">
-                      Lorem ipsum dolor sit amet, consestetur
-                    </div>
-                    <div class="card-price">
-                      N200
-                    </div>
+                  <div class="card-img text-center">
+                    <img
+                      src="assets/images/strawberry-jam-with-toast.png"
+                      alt="Strawberry jam with toast"
+                      class="img-fluid"
+                    />
                   </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Cookies -->
-
-            <div id="Cookies" class="coffeecards tabcontent">
-              <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                  <div class="coffee-card">
-                    <div class="card-title text-center">
-                      Peanut butter cookies
-                    </div>
-                    <div class="card-img text-center">
-                      <img
-                        src="assets/images/peanut-butter-cookies.png"
-                        alt="Peanut butter cookies"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="card-description">
-                      Lorem ipsum dolor sit amet, consestetur
-                    </div>
-                    <div class="card-price">
-                      N200
-                    </div>
+                  <div class="card-description">
+                    Lorem ipsum dolor sit amet, consestetur
                   </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                  <div class="coffee-card">
-                    <div class="card-title text-center">
-                      Wheat cookies
-                    </div>
-                    <div class="card-img text-center">
-                      <img
-                        src="assets/images/wheat-cookies.png"
-                        alt="Wheat cookies"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="card-description">
-                      Lorem ipsum dolor sit amet, consestetur
-                    </div>
-                    <div class="card-price">
-                      N200
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                  <div class="coffee-card">
-                    <div class="card-title text-center">
-                      Ginger bread cookies
-                    </div>
-                    <div class="card-img text-center">
-                      <img
-                        src="assets/images/ginger-bread-cookies.png"
-                        alt="Ginger bread cookies"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="card-description">
-                      Lorem ipsum dolor sit amet, consestetur
-                    </div>
-                    <div class="card-price">
-                      N200
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                  <div class="coffee-card">
-                    <div class="card-title text-center">
-                      Crackers
-                    </div>
-                    <div class="card-img text-center">
-                      <img
-                        src="assets/images/crackers.png"
-                        alt="Crackers"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="card-description">
-                      Lorem ipsum dolor sit amet, consestetur
-                    </div>
-                    <div class="card-price">
-                      N200
-                    </div>
+                  <div class="card-price">
+                    N200
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
+
+          <!-- Cookies -->
+
+          <div id="Cookies" class="coffeecards tabcontent">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                <div class="coffee-card">
+                  <div class="card-title text-center">
+                    Peanut butter cookies
+                  </div>
+                  <div class="card-img text-center">
+                    <img
+                      src="assets/images/peanut-butter-cookies.png"
+                      alt="Peanut butter cookies"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="card-description">
+                    Lorem ipsum dolor sit amet, consestetur
+                  </div>
+                  <div class="card-price">
+                    N200
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                <div class="coffee-card">
+                  <div class="card-title text-center">
+                    Wheat cookies
+                  </div>
+                  <div class="card-img text-center">
+                    <img
+                      src="assets/images/wheat-cookies.png"
+                      alt="Wheat cookies"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="card-description">
+                    Lorem ipsum dolor sit amet, consestetur
+                  </div>
+                  <div class="card-price">
+                    N200
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                <div class="coffee-card">
+                  <div class="card-title text-center">
+                    Ginger bread cookies
+                  </div>
+                  <div class="card-img text-center">
+                    <img
+                      src="assets/images/ginger-bread-cookies.png"
+                      alt="Ginger bread cookies"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="card-description">
+                    Lorem ipsum dolor sit amet, consestetur
+                  </div>
+                  <div class="card-price">
+                    N200
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                <div class="coffee-card">
+                  <div class="card-title text-center">
+                    Crackers
+                  </div>
+                  <div class="card-img text-center">
+                    <img
+                      src="assets/images/crackers.png"
+                      alt="Crackers"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="card-description">
+                    Lorem ipsum dolor sit amet, consestetur
+                  </div>
+                  <div class="card-price">
+                    N200
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          
         </div>
       </div>
+    </div>
+
+    
 
       <!-- <div class="col-lg-6">
         <img
